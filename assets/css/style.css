@@ -1,0 +1,521 @@
+body {
+    /*background-color: #EFD699FF;*/
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+header nav {
+    margin-right: 11%;
+    float: right;
+    margin-top: 38px;
+    text-decoration: none;
+    text-align: center;
+    color: #a7acb0;
+    font-size: 1.25em;
+    /*font-weight: bold;*/
+}
+
+header nav a {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+    color: #666666;
+    font-size: 1.25em;
+}
+
+header nav a:hover {
+    color: teal;
+}
+
+header {
+    display: absolute;
+    display: block;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: solid #cccccc;
+    min-height: 100px;
+    overflow: auto;
+}
+
+.header-name  {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    text-align: center;
+    vertical-align: center;
+    font-size: 2.5em;
+    font-family: 'Broadway', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 10%;
+    width: 30%;
+    padding-left: 2%;
+    height: 100px;
+    line-height: 100px;
+    padding-right: 3%;
+    overflow: hidden; 
+}
+
+header nav div {
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    margin: 0 10px;
+    height: .75em;
+}
+
+.wrapper {
+    max-width: 960px;
+    min-height: 1080px;
+    /*height: 100%;*/
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-left: 50px;
+    overflow-y: auto;
+}
+
+.wrapper-portfolio {
+    max-width: 960px;
+    min-height: 2300px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-left: 50px;
+    overflow: auto;
+}
+
+.wrapper-contact {
+    max-width: 960px;
+    min-height: 600px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-left: 50px;
+    overflow: auto;
+}
+
+.about-me,
+.portfolio,
+.contact {
+    width: 600px;
+    min-width: 270px;
+    max-width: 60%;
+    float: left;
+    background-color: white;
+    border: black;
+    border-style: double;
+    margin-top: 5%;
+    padding-left: 15px;
+    padding-right: 7px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.about-me {
+	min-width: 270px;
+    padding-bottom: 15px;
+}
+
+
+.about-me img {
+    float: left;
+    padding-right: 10px;
+}
+
+.portfolio {
+    overflow-x: auto;
+}
+
+.portfolio-image {
+    position: relative;
+    /*width: 250px;*/
+    margin: 3%;
+    padding: 0;
+    float: left;
+    overflow: auto;
+    opacity: .75;
+}
+
+.portfolio-image:hover {
+    opacity: 1;
+}
+
+.portfolio-image img {
+    float: left;
+    /*width: 250px;
+    height: 180px;*/
+    padding: 0;
+    margin: 0;
+    /*max-height: 182px;*/
+    z-index: 2;
+}
+
+.portfolio-image h2 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 5px;
+    margin: 0;
+    width: 100%;
+    height: 30px;
+    z-index: 3;
+    margin-top: 300px;
+    text-align: center;
+    opacity: .8;
+}
+
+.connect {
+    width: 270px;
+    float: left;
+    background-color: white;
+    border: black;
+    border-style: double;
+    margin: 5% 3%;
+    padding-right: 7px;
+    padding-left: 7px;
+    /*	margin-left: 15px;
+	margin-right: 0;
+*/
+}
+
+.connect hr {
+    display: block;
+    margin-top: 21px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.connect img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: .2px;
+}
+
+.connect img:hover {
+    background-color: #4aaaa5;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-indent: 40px;
+    padding: 5px;
+}
+
+.about-me p {
+	margin-top: 5%;
+}
+
+.second-p {
+    margin-bottom: -20px;
+}
+
+.connect h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/*Makes it so the contact form area highlights when you have it clicked on*/
+
+input:focus,
+textarea:focus {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+input {
+    width: 90%;
+}
+
+.message-form {
+    width: 90%;
+    max-width: 90%;
+    min-height: 50px;
+    height: 75px;
+    max-height: 150px;
+}
+
+.submit-button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+html,
+body {
+    background-color: #EFD699FF;
+    background-image: url("../images/folk-pattern.png");
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #4aaaa5;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    border-top: thick solid teal;
+    border-width: 7px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer a {
+    color: white;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    border-width: 7px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ }
+
+@media screen and (max-width: 980px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .about-me img {
+        width: 100%;
+    }
+
+    .about-me p {
+        margin-top: 10px;
+    }
+/*
+    .portfolio-image {
+        width: 80%;
+    } */ 
+
+    .portfolio img {
+        width: 80%;
+    }
+
+    .portfolio-image h2 {
+        margin-top: 80%;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        max-width: 100%;
+        min-height: 200px;
+        padding-left: 5%;
+        height: 85%;    
+    }
+
+    .wrapper-portfolio {
+        min-height: 0;
+    }
+
+    .about-me, .portfolio, .contact {
+        max-width: 100%;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .about-me img {
+        max-width: 50%;
+    }
+
+    .portfolio-image {
+        max-width: 40%;
+    }
+
+    .portfolio-image img {
+        width: 100%;
+    }
+
+    .portfolio-image h2 {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+
+    .wrapper-contact {
+        max-height: 830px;
+    }
+
+    .connect {
+        width: 86%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .connect img {
+        margin-left: 30px;
+        padding-left: 6%; 
+    }
+
+    .connect img:hover {
+    background-color: #4aaaa5;
+    }
+    
+    header nav {
+            float: right;
+            margin-top: 58px;
+            text-decoration: none;
+            text-align: center;
+            color: #a7acb0;
+            font-size: 1em;
+            /*font-weight: bold;*/
+        }
+
+        header nav a {
+            font-size: 1em;
+        }
+
+        
+        .header-name  {
+            font-size: 1.5em;
+            margin-left: 5  %;
+            padding-right: 7%;
+            overflow: hidden; 
+        }
+
+    .about-me, body, html, .wrapper, .connect, footer, header {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+    body, html {
+        margin: 0;
+    }
+
+    
+}
+
+@media screen and (max-width: 640px) {
+    
+
+    header {
+        position: static;
+        background-color: white;
+        /*height: 150px;*/
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .about-me img {
+        max-width: 100%;
+    }
+
+    .wrapper-portfolio {
+        min-height: 2150px;
+    }
+
+    .portfolio-image {
+        max-width: 100%;
+    }
+
+    .portfolio img {
+        width: 100%;
+    }
+
+    .portfolio-image h2 {
+        margin-top: 50%;
+    }    
+
+    .wrapper-contact {
+        min-height: 650px;
+    }
+
+    .header-name {
+        display: block;
+        background-color: #4aaaa5;
+        color: white;
+        width: 100%;
+        height: 90px;
+        line-height: 90px;
+        font-size: 2em;
+    font-family: 'Broadway', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 0 auto;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    padding-right: 3%;
+        margin: 0;
+        padding: 0;
+    }
+
+   
+
+    header nav {
+        margin-top: 0;
+        padding: 2% 0 2px 0;
+        width: 100%;
+        /*padding-top: 2%; */
+    }
+
+    header nav a {
+        text-align: center;
+        margin-left: 20%;
+        padding: 0;
+        font-size: 1.2em;
+        width: 100%;
+    }
+
+    .connect img {
+        padding-left: 3.5%;
+        
+    }
+
+    body {
+        height: 100%;
+    }
+}
